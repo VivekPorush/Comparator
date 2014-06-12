@@ -46,9 +46,9 @@ Specified as per the required type of output:
 
     .Print	- Print(log) requested parameters
     .Plot	- Plot(screen) requested parameters
-    .Op	- DC Operating point computations
+    .Op	        - DC Operating point computations
     .Tran	- Transient analysis
-    .AC	- AC analysis
+    .AC	        - AC analysis
 
 =======================================
 Macro Model Pin Configuration
