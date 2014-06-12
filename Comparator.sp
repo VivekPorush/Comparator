@@ -1,10 +1,10 @@
-**************************************************************************************
-***********************************Comparator*****************************************
-**************************************************************************************
-***** Porush, Vivek                               e-mail: vporus2@uic.edu*************
-*****                      vivek.91.porush@gmail.com                           *******
-*** Comparator     								                                    ****
-***    Copyright (C) <2014>  <Porush Vivek> 	                                    ****
+***************************************************************************************
+***********************************Comparator******************************************
+***************************************************************************************
+***** Porush, Vivek                               e-mail: vporus2@uic.edu**************
+*****                      vivek.91.porush@gmail.com                            *******
+***Comparator                                                                      ****
+***    Copyright (C) <2014>  <Porush Vivek>                                        ****
 ***    This program is free software: you can redistribute it and/or modify        ****
 ***    it under the terms of the GNU Affero General Public License as published by ****
 ***    the Free Software Foundation, either version 3 of the License, or           ****
@@ -24,9 +24,9 @@
 ***************************************************************************************
 ***Circuit parameters are given as :-->                                           *****
 ***                                                                               *****
-***-->1. Vs	=  2.5 V Sin Wave 1KHz	\\ Input Voltage  \\ \\ Passive \\             *****
-***-->2. Vcc(V+) =  12 V Dc        \\DC Regulated Positive Voltage\\ \\Passive\\  *****
-***-->3. Vee(V-) = -12 V Dc        \\DC Regulated Negative Voltage\\ \\Passive\\  *****
+***-->1. Vs = 2.5 V Sin Wave 1KHz  \\Input Voltage\\ \\Passive\\                  *****
+***-->2. Vcc (V+) = 12 V Dc        \\ DC Regulated Positive Voltage\\ \\Passive\\ *****
+***-->3. Vee (V-) = -12 V Dc       \\ DC Regulated Negative Voltage\\ \\Passive\\ *****
 ***************************************************************************************
 ***************************************************************************************
 ***Output results :-->                                                            *****
