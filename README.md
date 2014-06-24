@@ -14,7 +14,7 @@ General Usage Notes
 	- This particular version is specified for LTSpice/HSPICE.
 	- Max threads are limited to 4 in LTSPice, thus limiting performance & extended
 	  simulation times.
-	- Includes simple comparator analysis.
+	- This file however is a simple comparator analysis and does not require much processing.
 
 =============
 Introduction
@@ -73,6 +73,7 @@ Bugs
 ===============
 	- Due to internal parasites and geometry of LM 741, a LPF with cut off frequency of 30 Khz is always present.
 	- This interferes with the expected response of device and thus the resultant output is deviated.
+	- These problems are specified for the LM741 model used in this simulation.
 
 ===============
 Documentation
