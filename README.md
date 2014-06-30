@@ -12,9 +12,11 @@ Comparator Analysis
 General Usage Notes
 =====================
 	- This particular version is specified for LTSpice/HSPICE.
+	
 	- Max threads are limited to 4 in LTSPice, thus limiting performance & extended
 	  simulation times.
-	- This file however is a simple comparator analysis and does not require much processing.
+
+	- This spice file is a simple comparator analysis and does not require much processing.
 
 =============
 Introduction
@@ -31,11 +33,13 @@ Features
 
 	-  Comparator analysis.
 
+	-  Nation Semiconductors LM741 Model.
+
 ==============
 Installation
 ==============
 Besides the LTSpice/HSpice/PSpice software, you should have VIM, and (optionally) Matlab installed 
-on your system.
+on your system for better graphical analysis results.
 
 	- Place “Comparator.sp” in your spice directory and then run simulation.
 
@@ -73,7 +77,7 @@ Bugs
 ===============
 	- Due to internal parasites and geometry of LM 741, a LPF with cut off frequency of 30 Khz is always present.
 	- This interferes with the expected response of device and thus the resultant output is deviated.
-	- These problems are specified for the LM741 model used in this simulation.
+	- These problems may be associated with the LM741 model used in this simulation.
 
 ===============
 Documentation
@@ -84,21 +88,21 @@ Documentation
     However, basic knowledge of circuits along with familiarity with analog VLSI is required.
    Documentation can be found at [My Git Documentation Page](http://vivekporush.github.io)
     
-============
+===========
 Feedback
 ===========
 
     If you encounter any bugs or any particular features that are missing,
     please contact me at:
 
-  Porush, Vivek <vporus2@uic.edu> or <vivek.91.porush@gmail.com> or [My Web Page](https://sites.google.com/site/vivekporush91/)
+  Contact [Porush, Vivek](mailto:vivek.91.porush@gmail.com) or [My Web Page](https://sites.google.com/site/vivekporush91/)
   
     Please feel free to write your macros and extensions.If you send me patches, I will most
     probably include them in future versions of LPF using MOS Active Resistor and maintain them to the best
     of my abilities.;-) I also appreciate any orthographic and grammatical corrections.
     
     Porush, Vivek
-============
+===========
 Copyright
 ===========
     Comparator
