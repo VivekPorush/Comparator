@@ -25,6 +25,8 @@ Introduction
     Every effort has been made to improve portability of this program. This code can be used “as it is” 
     on LTSpice/ HSPICE. However, PSPICE portability is not verified.
     
+    - Other issues can be reported on below mentioned contact information. 
+    
 ==========
 Features
 ==========
